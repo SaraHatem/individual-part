@@ -1,0 +1,52 @@
+mkdir github
+git init
+git add 1.1.txt
+git add 3.1.txt
+git add 5.1.txt
+git commit -m "three files"
+git rm 3.1.txt
+git checkout 3.1.txt
+git commit -m "jj
+
+
+
+
+ :wq
+
+
+ ;
+ wq
+ :wq
+"
+git remote add origin https://github.com/SaraHatem/individual-part.git
+git push -u origin master
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m "added ReadMe to branch ReadMe "
+git push --set-upstream origin ReadMe
+git commit -m "in branch"
+git checkout master
+git merge ReadMe
+git commit -m "after merge"
+git push origin master
+git commit -m "m"
+git add AllMyCommands.txt
+git commit -m "last commit"
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
